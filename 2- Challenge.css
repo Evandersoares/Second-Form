@@ -1,0 +1,189 @@
+* {
+  margin: 5;
+  padding: 5;
+  box-sizing: border-box;
+  background-color: #fadfb9;
+  font-family: "Helvetica Neue";
+}
+.colors {
+  color: #300ec7;
+}
+
+#register{
+  background: linear-gradient(to right, blue 25%, #A65B0D 75%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  font-size: 50px;
+  font-weight:300;
+  margin-left: 10px;
+
+  top: -50px;
+}
+form {
+  border-style: double;
+  border-color: black;
+  border: 3px solid;
+  margin-top:60px
+}
+
+#name {
+  
+  margin:20px 10px 10px 10px;
+  font-size: 25px;
+}
+#nome {
+  display: block;
+  margin: 2px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #FAEAA2
+}
+
+#email {
+  margin: 10px 10px;
+  font-size: 25px;
+}
+#e-mail {
+  display: block;
+  margin: 2px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #FAEAA2
+}
+#my-age {
+  margin: 10px 10px;
+  font-size: 25px;
+}
+#age {
+  display: block;
+  margin: 2px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #FAEAA2
+}
+#date {
+  margin: 10px 10px;
+  font-size: 25px;
+}
+#birthday {
+  display: block;
+  margin: 2px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #FAEAA2
+}
+#account {
+  margin: 10px 10px;
+  font-size: 25px;
+}
+#line {
+  display: block;
+  font-size: 20px;
+
+  background-color: #FAEAA2
+}
+#accounts {
+  display: block;
+  display: inline;
+  margin: 2px 10px;
+}
+#sexo {
+  display: block;
+  margin: 10px 10px;
+  font-size: 25px;
+}
+.aligned-sex {
+  display: inline;
+  margin: 2px -1px;
+}
+#linesex {
+  display: block;
+  font-size: 20px;
+}
+#sex {
+  margin: 4px 1px;
+  color: #706894;
+}
+#eyes {
+  margin: 2px 10px;
+  font-size: 25px;
+}
+#eyes-color {
+  display: block;
+  margin: 10px 10px;
+  font-size: 15px;
+}
+#biography {
+  margin: 2px 10px;
+  font-size: 25px;
+}
+.my-biography {
+  display: block;
+  margin: 10px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #FAEAA2
+}
+
+#photo {
+  margin: 2px 10px;
+  font-size: 25px;
+}
+.file-upload {
+  display: block;
+  margin: 10px 10px;
+}
+#telephone {
+  margin: 2px 10px;
+  font-size: 25px;
+}
+#fone {
+  display: block;
+  margin: 5px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #FAEAA2
+}
+#link {
+  margin-left: 10px;
+  font-size: 25px;
+}
+#url {
+  display: block;
+  margin: 2px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #FAEAA2
+}
+#password {
+  margin: 2px 10px;
+  font-size: 25px;
+}
+#my-password {
+  display: block;
+  margin: 2px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #FAEAA2
+}
+#dice {
+  margin: 25px 10px 10px 10px;
+  cursor: pointer;
+  border-color: #4e4494;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.3222222;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: #706894;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #4936c7 !important;
+  border: none;
+  font-size: 20px;
+  
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Html 2</title>
+    <link rel="stylesheet" href="../css/2- Challenge.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Nunito:ital,wght@1,340 & display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <form action="" method="post" enctype="multipart/form-data">
+      
+        <p id="register">Cadastro</p>
+
+        <label for="nome" id="name" class="colors"> Nome
+
+            <input type="text" placeholder="Digite seu nome" required id="nome"> </label>
+
+
+        <label for="email" id="email" class="colors">Email</label>
+
+        <input type="email" placeholder="Email" required id="e-mail"> </label>
+
+
+        <label for="Idade" id="my-age" class="colors">idade</label>
+
+        <input type="number" placeholder="idade" required id="age" min="12" step="1" max="60"> </label>
+
+
+        <label for="data-nascimento" id="date" class="colors">Data de nascimento</label>
+
+        <input type="date" placeholder="Data nascimento" required id="birthday"> </label>
+
+
+        <label id="account" class="colors" id=> Onde você possui conta
+            <label id="line"></label>
+            <label>
+                <input type="checkbox" name="Instagram" id="accounts">Instagram
+            </label>
+
+            <label>
+                <input type="checkbox" name="Facebook" id="accounts">Facebook
+            </label>
+
+            <label>
+                <input type="checkbox" name="Youtube" id="accounts">Youtube
+            </label>
+        </label>
+
+
+        <label for="sexo" id="sexo" class="colors">Sexo
+            <label id="linesex"></label>
+            <div class="aligned-sex"></div>
+            <label>
+                <input type="radio" name="sexo" required id="sex" value="Masculinio">Masculino
+            </label>
+
+            <label>
+                <input type="radio" name="sexo" required id="sex" value="Feminino">Feminino
+            </label>
+            </div>
+        </label>
+
+
+
+        <label for="Cor-dos-olhos" id="eyes" class="colors">Cor dos olhos</label>
+
+        <input type="color" name="cor-dos-olhos" required id="eyes-color">
+
+        </label>
+
+
+        <label for="Biografia" class="colors" id=biography>Biografia</label>
+
+        <textarea name="Biografia" placeholder="Conte-nos um pouco sobre você." required class="my-biography"
+            id="my-biography"></textarea> </label>
+
+
+        <label for="Fot-de-perfil" id="photo" class="colors">Foto do Perfil
+
+            <input type="file" name="arquivo" accept="images/*" class="file-upload">
+        </label>
+
+
+        <label for="Telefone" id="telephone" class="colors">Telefone
+
+            <input type="tel" placeholder="Telefone" id="fone">
+        </label>
+
+        <label for="Link-do-perfil-do-Facebook" id="link" class="colors">Link do perfil do Facebook
+
+            <input type="url" name="url" id="url" placeholder="Perfil do Facebook">
+        </label>
+
+
+        <label for="Senha" id="password" class="colors">Senha
+
+            <input type="password" name="senha" placeholder="Senha" required minlength="6" maxlength="8"
+                id="my-password">
+        </label>
+
+
+        <button type="reset" id="dice" class="btn">
+            Limpar</button>
+        <button type="submit" id="dice" class="btn">Enviar Dados</button>
+
+    </form>
+
+  </body>
+
+
+</body>
+
+</html>
